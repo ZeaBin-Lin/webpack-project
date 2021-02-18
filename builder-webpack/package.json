@@ -1,0 +1,26 @@
+{
+  "name": "builder-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "glob": "^7.1.6",
+    "glob-all": "^3.2.1",
+    "mocha": "^8.3.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-merge": "^5.7.3"
+  }
+}
